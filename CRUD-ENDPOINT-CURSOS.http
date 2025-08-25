@@ -1,0 +1,6 @@
+@CRUD_ENDPOINT_CURSOS_HostAddress = http://localhost:5134
+
+GET {{CRUD_ENDPOINT_CURSOS_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

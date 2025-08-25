@@ -1,0 +1,319 @@
+[
+  {
+    "ContainingType": "CRUD_ENDPOINT_CURSOS.Controllers.AlunoController",
+    "Method": "AlterarCursoDoAluno",
+    "RelativePath": "api/Aluno/alterar-curso-aluno",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "novoCursoId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "CRUD_ENDPOINT_CURSOS.Models.Aluno",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "CRUD_ENDPOINT_CURSOS.Controllers.AlunoController",
+    "Method": "AtualizarAluno",
+    "RelativePath": "api/Aluno/atualizar-aluno",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "alunoAtualizado",
+        "Type": "CRUD_ENDPOINT_CURSOS.Models.Aluno",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CRUD_ENDPOINT_CURSOS.Controllers.AlunoController",
+    "Method": "BuscarAlunoPorId",
+    "RelativePath": "api/Aluno/buscar-aluno-id",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "CRUD_ENDPOINT_CURSOS.Models.Aluno",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "CRUD_ENDPOINT_CURSOS.Controllers.AlunoController",
+    "Method": "CriarAluno",
+    "RelativePath": "api/Aluno/criar-aluno",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "aluno",
+        "Type": "CRUD_ENDPOINT_CURSOS.Models.Aluno",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "CRUD_ENDPOINT_CURSOS.Models.Aluno",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "CRUD_ENDPOINT_CURSOS.Controllers.AlunoController",
+    "Method": "ListarAlunos",
+    "RelativePath": "api/Aluno/listar-aluno",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[CRUD_ENDPOINT_CURSOS.Models.Aluno, CRUD-ENDPOINT-CURSOS, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "CRUD_ENDPOINT_CURSOS.Controllers.AlunoController",
+    "Method": "ListarAlunosDoCurso",
+    "RelativePath": "api/Aluno/listar-alunos-curso",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "cursoId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[CRUD_ENDPOINT_CURSOS.Models.Aluno, CRUD-ENDPOINT-CURSOS, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "CRUD_ENDPOINT_CURSOS.Controllers.AlunoController",
+    "Method": "ListarAlunosPorCursoId",
+    "RelativePath": "api/Aluno/listar-alunos-id",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "cursoId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[CRUD_ENDPOINT_CURSOS.Models.Aluno, CRUD-ENDPOINT-CURSOS, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "CRUD_ENDPOINT_CURSOS.Controllers.AlunoController",
+    "Method": "RemoverAlunoDoCursoPorId",
+    "RelativePath": "api/Aluno/remove-aluno-curso-id",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "alunoId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CRUD_ENDPOINT_CURSOS.Controllers.AlunoController",
+    "Method": "RemoverAluno",
+    "RelativePath": "api/Aluno/remover-aluno",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CRUD_ENDPOINT_CURSOS.Controllers.CursoController",
+    "Method": "AtualizarCurso",
+    "RelativePath": "api/Curso/atualizar-curso-{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "cursoAtualizado",
+        "Type": "CRUD_ENDPOINT_CURSOS.Models.Curso",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CRUD_ENDPOINT_CURSOS.Controllers.CursoController",
+    "Method": "BuscarCursoPorId",
+    "RelativePath": "api/Curso/buscar-cursos-{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "CRUD_ENDPOINT_CURSOS.Models.Curso",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "CRUD_ENDPOINT_CURSOS.Controllers.CursoController",
+    "Method": "CriarCurso",
+    "RelativePath": "api/Curso/criar-curso",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "curso",
+        "Type": "CRUD_ENDPOINT_CURSOS.Models.Curso",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "CRUD_ENDPOINT_CURSOS.Models.Curso",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "CRUD_ENDPOINT_CURSOS.Controllers.CursoController",
+    "Method": "ApagarCurso",
+    "RelativePath": "api/Curso/deletar-curso-{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CRUD_ENDPOINT_CURSOS.Controllers.CursoController",
+    "Method": "ListarCursos",
+    "RelativePath": "api/Curso/listar-cursos",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[CRUD_ENDPOINT_CURSOS.Models.Curso, CRUD-ENDPOINT-CURSOS, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  }
+]

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CRUD-ENDPOINT-CURSOS")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b35ff2baa3287cc88e69581e2c88db13a8325204")]
 [assembly: System.Reflection.AssemblyProductAttribute("CRUD-ENDPOINT-CURSOS")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CRUD-ENDPOINT-CURSOS")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

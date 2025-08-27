@@ -70,6 +70,6 @@ namespace CRUD_ENDPOINT_CURSOS.Controllers
             return NoContent();
         }
 
-
     }
+
 }

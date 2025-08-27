@@ -176,3 +176,5 @@ C:\Users\r.pinheiro.braga\Desktop\DIO - C#\CRUD-ENDPOINT-CURSOS\obj\Debug\net8.0
 C:\Users\r.pinheiro.braga\Desktop\DIO - C#\CRUD-ENDPOINT-CURSOS\obj\Debug\net8.0\CRUD-ENDPOINT-CURSOS.pdb
 C:\Users\r.pinheiro.braga\Desktop\DIO - C#\CRUD-ENDPOINT-CURSOS\obj\Debug\net8.0\CRUD-ENDPOINT-CURSOS.genruntimeconfig.cache
 C:\Users\r.pinheiro.braga\Desktop\DIO - C#\CRUD-ENDPOINT-CURSOS\obj\Debug\net8.0\ref\CRUD-ENDPOINT-CURSOS.dll
+C:\Users\r.pinheiro.braga\Desktop\DIO - C#\CRUD-ENDPOINT-CURSOS\obj\Debug\net8.0\CRUD-ENDPOINT-CURSOS.sourcelink.json
+C:\Users\r.pinheiro.braga\Desktop\DIO - C#\CRUD-ENDPOINT-CURSOS\bin\Debug\net8.0\Newtonsoft.Json.dll

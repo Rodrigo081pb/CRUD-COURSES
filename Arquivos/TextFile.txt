@@ -1,0 +1,16 @@
+﻿linha 1 : oi
+linha 2 : tudo bem?
+linha 3 : tchau
+linha 4 : até mais
+linha 5 : volte sempre
+linha 6 : obrigado
+linha 7 : bom dia
+linha 8 : boa tarde
+linha 9 : boa noite
+linha 10 : até logo
+linha 11 : até amanhã
+linha 12 : até breve
+linha 13 : até já
+linha 14 : até daqui a pouco
+linha 15 : até a próxima
+linha 16 : cuide-se
